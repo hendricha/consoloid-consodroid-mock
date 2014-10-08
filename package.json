@@ -1,0 +1,18 @@
+{
+  "name": "consoloid-consodroid-mock",
+  "dependencies": {
+    "fs-ext": "*",
+    "contextify": "*"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Hendrich Attila",
+    "email": "hendricha@agmen.hu"
+  },
+  "contributors": [
+    {
+      "name": "Hendrich Attila",
+      "email": "hendricha@agmen.hu"
+    }
+  ]
+}
