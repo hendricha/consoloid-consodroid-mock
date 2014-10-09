@@ -1,7 +1,6 @@
 {
   "name": "consoloid-consodroid-mock",
   "dependencies": {
-    "fs-ext": "*",
     "contextify": "*"
   },
   "license": "MIT",

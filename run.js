@@ -1,5 +1,5 @@
 var http = require('http');
-var fs = require('fs-ext');
+var fs = require('fs');
 var contextify = require('contextify');
 
 var message = "Hello Consodroid\n";
