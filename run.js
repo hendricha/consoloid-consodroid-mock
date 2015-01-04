@@ -12,5 +12,20 @@ server.listen(3000);
 
 setTimeout(function() {
   fs.writeFileSync("/data/data/hu.hendricha.consodroid/files/accessControl/10.0.0.4", "");
-  message += "Wrote file";
+  console.log("Wrote access control file");
 }, 5000);
+
+setTimeout(function() {
+  fs.writeFileSync("/data/data/hu.hendricha.consodroid/files/apkInstallRequests/install-1234", "/some/apk/that/does/not/exist.apk\n");
+  console.log("Wrote install request file");
+}, 10000);
+
+setTimeout(function() {
+  fs.writeFileSync("/data/data/hu.hendricha.consodroid/files/apkInstallRequests/uninstall-1234", "hu.hendricha.ultimate.application\n");
+  console.log("Wrote uninstall request file");
+}, 15000);
+
+setTimeout(function() {
+  console.log("Closing");
+  process.exit();
+}, 20000);
